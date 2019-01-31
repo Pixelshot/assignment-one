@@ -8,7 +8,7 @@
 4. Pass a username (of your choice) to UserOutput via props and display it there :heavy_check_mark:
 5. Add state to the App component (=> the username) and pass the username to the UserOutput component :heavy_check_mark:
 6. Add a method to manipulate the state (=> an event-handler method) :heavy_check_mark:
-7. Pass the event-handler method reference to the UserInput component and bind it to the input-change event
-8. Ensure that the new input entered by the user overwrites the old username passed to UserOutput
-9. Add two-way-binding to your input (in UserInput) to also display the starting username
+7. Pass the event-handler method reference to the UserInput component and bind it to the input-change event :heavy_check_mark:
+8. Ensure that the new input entered by the user overwrites the old username passed to UserOutput :heavy_check_mark:
+9. Add two-way-binding to your input (in UserInput) to also display the starting username :heavy_check_mark:
 10. Add styling of your choice to your components/ elements in the components - both with inline styles - and stylesheets

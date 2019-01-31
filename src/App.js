@@ -12,10 +12,16 @@ class App extends Component {
       usernames: [{ user: "Optimus" }, { user: "Detective" }]
     });
   }
+
+  incomingInputHandler = event => {
+    this.setState({
+      usernames: [{ user: event.target.value }, { user: "Working As Intended" }]
+    });
+  };
   render() {
     return (
       <div className="App">
-        <UserInput />
+        <UserInput reciprocate={this.incomingInputHandler.bind(this)} />
         <UserOutput
           username1={this.state.usernames[0].user}
           username2={this.state.usernames[1].user}
